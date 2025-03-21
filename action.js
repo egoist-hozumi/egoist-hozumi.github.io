@@ -1,6 +1,6 @@
 import * as THREE from 'three';
-import { STLLoader } from 'node_modules/three/examples/jsm/loaders/STLLoader';
-import { GLTFLoader } from 'node_modules/three/examples/jsm/loaders/GLTFLoader';
+import { STLLoader } from 'jsm/loaders/STLLoader.js';
+import { GLTFLoader } from 'jsm/loaders/GLTFLoader.js';
 
 // Setup scene and renderer
 const scene = new THREE.Scene();
