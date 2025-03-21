@@ -1,7 +1,6 @@
 import * as THREE from 'three';
-import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
-import { STLLoader } from 'three/addons/loaders/STLLoader.js';
-import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { STLLoader } from 'node_modules/three/examples/jsm/loaders/STLLoader';
+import { GLTFLoader } from 'node_modules/three/examples/jsm/loaders/GLTFLoader';
 
 // Setup scene and renderer
 const scene = new THREE.Scene();
